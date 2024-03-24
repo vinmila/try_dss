@@ -1,5 +1,6 @@
 import random
 
+#just a comment to check branching
 
 def function_A(min, max):
     """
@@ -26,7 +27,8 @@ def math_quiz():
     print("Welcome to the Math Quiz Game!")
     print("You will be presented with math problems, and you need to provide the correct answers.")
 
-    for _ in range(t_q):
+    for _ in range(int(t_q)):
+
         n1 = function_A(1, 10); n2 = function_A(1, 5.5); o = function_B()
 
         PROBLEM, ANSWER = function_C(n1, n2, o)
